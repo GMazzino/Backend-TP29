@@ -1,0 +1,7 @@
+{{#each chatMsgs}}
+  <p><span class="email">{{this.author.id}} </span><span
+      class="time"
+    >{{this.time}}: </span>
+    <span class="msg">{{this.text}}</span>
+    <span><img src="{{this.author.avatar}}" /></span></p>
+{{/each}}

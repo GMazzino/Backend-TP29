@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>App info</title>
+  </head>
+  <body>
+    <h2>Argumentos de entrada:</h2>
+    <p><%= info.args %></p>
+    <h2>Plataforma:</h2><p><%= info.platform %></p>
+    <h2>Versión de Node:</h2><p><%= info.nodeVersion %></p>
+    <h2>Memoria total reservada:</h2><p><%= info.rss %></hp>
+    <h2>Pah de ejecución:</h2><p><%= info.execPath %></p>
+    <h2>PID:</h2><p><%= info.pid %></p>
+    <h2>Carpeta del proyecto:</h2><p><%= info.cwd %></p>
+    <h2>Cantidad de CPU's:</h2><p><%= info.cpus %></p>
+    <br />
+    <br />
+    Ir a <a href="<%= redirect %>">página principal</a>
+  </body>
+</html>

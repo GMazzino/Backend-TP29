@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.6rem;
+  letter-spacing: 0.2rem;
+  word-spacing: 0.5rem;
+  line-height: 2rem;
+  margin: 0 0.5rem;
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.email {
+  color: blue;
+  font-weight: bolder;
+}
+
+.time {
+  color: brown;
+}
+
+.msg {
+  color: green;
+  font-style: italic;
+}
+.container {
+  width: 40rem;
+  margin: 2rem auto;
+}
+
+.container fieldset {
+  padding: 2rem;
+}
+
+.container input {
+  border: none;
+  border-bottom: 0.1rem solid;
+  padding: 0.2rem 1rem;
+}
+input:focus {
+  outline: none;
+}
+.container input[type="submit"] {
+  display: block;
+  margin: 0 auto;
+  margin-top: 2.5rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 10rem;
+  cursor: pointer;
+  background-color: steelblue;
+}
+
+#productsGrid table {
+  margin: 4rem auto;
+  border-collapse: collapse;
+  border: 0.2rem solid black;
+}
+
+#productsGrid table thead tr {
+  background-color: steelblue;
+  font-weight: 900;
+}
+
+#productsGrid table thead tr th {
+  padding: 0.5rem;
+}
+
+#productsGrid table tr:nth-child(even) {
+  background-color: rgb(180, 225, 255);
+}
+
+#productsGrid table thead tr td {
+  text-align: center;
+}
+
+#productsGrid table tr td {
+  padding: 0.5rem;
+}
+
+#productsGrid table tr td:nth-child(1) {
+  width: 25rem;
+}
+
+#productsGrid table tr td:nth-child(2) {
+  text-align: center;
+  width: 15rem;
+}
+
+#productsGrid table tr td:nth-child(3) img {
+  margin: 0 auto;
+  width: 4rem;
+  height: 4rem;
+}
+
+#chatMsgs {
+  max-height: 40rem;
+  overflow-y: scroll;
+  width: 80rem;
+  border: 0.2rem solid black;
+  padding: 0.2rem 0.2rem;
+}
